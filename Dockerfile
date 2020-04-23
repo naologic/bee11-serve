@@ -25,4 +25,4 @@ WORKDIR $APP_DIR
 RUN npm install -g nest
 
 # Start from app
-CMD ["sh", "-c", "npm", "run", "${npm_run_command}"]
+CMD ["sh", "-c", "npm run start:dev"]
